@@ -8,4 +8,4 @@ And the Index will link to the original course website.
 
 | Course Name | Index |
 |:-------|:-------|
-| [Introduction to AI](./IntroductionToAI/README.md) | [Berkeley CS188 24Spring](https://inst.eecs.berkeley.edu/~cs188/sp24/) and [Rutgers CS440 24Fall](https://xintongemilywang.github.io/CS440.html) |
+| [Introduction to AI](./IntroductionToAI/README.md) | [Berkeley CS188 24Spring](https://inst.eecs.berkeley.edu/~cs188/sp24/), [Rutgers CS440 24Fall](https://xintongemilywang.github.io/CS440.html) |
