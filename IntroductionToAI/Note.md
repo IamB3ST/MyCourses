@@ -28,4 +28,39 @@ Estimating the computational runtime of solving a search problem is the size of 
 A state space graph is constructed with states representing nodes, with directed edges existing from a state to its children. These edges represent actions, and any associated weights represent the cost of performing the corresponding action.
 
 Unlike state space graphs, search trees have no such restriction on the number of times a state can appear. Search trees are also a class of graph with states as nodes and actions as edges between states, each state/node encodes not just the state itself, but the entire path (or plan) from the start state to the given state in the state space graph.
+![[SSGandST.png]]
+### Uninformed Search
+Uninformed search is like trying to find your way through a maze without a map. Here's how it works:
+1. Starting point: You begin at the entrance of the maze. This is your "start state."
+2. Making a plan: As you explore, you keep a list of possible paths to try. This list is called the "frontier."
+3. Exploring: You pick a path from your list and follow it a bit further into the maze.
+4. New choices: When you reach a point where the path branches, you add these new options to your list of paths to try later.
+5. Keeping track: For each new path you discover, you remember:
+   - Where it leads
+   - How you got there
+   - How far you've traveled
+6. Repeat: You keep doing this - picking a path, exploring it, and adding new options to your list.
+7. Finding the exit: You continue this process until you pick a path that leads to the exit (your "goal state").
+8. Success!: Once you find the exit, you can trace back the path you took to get there.
+
+The key thing about uninformed search is that you don't have any special knowledge about which paths might be better. You're just systematically trying different options until you find the goal.
+
+When we have no knowledge of the location of goal states in our search tree, we are forced to select our strategy for tree search from one of the techniques that falls under the umbrella of uninformed search. We’ll now cover three such strategies in succession: **depth-first search**, **breadth-first search**, and **uniform cost search**.
+
+#### Depth-First Search
+Depth-first search (DFS) is a strategy for exploration that always selects the *deepst* frontier node from the start node for expansion. 
+Removing the deepest node and replacing it on the frontier with its children
+necessarily means the children are now the new deepest nodes - their depth is one greater than the depth of the previous deepest node.This implies that to implement DFS, we require a structure that always gives the most recently added objects highest priority.
+#### Breadth-First Search
+Breadth-first search (BFS) is a strategy for exploration that always selects the *shallowest* frontier node from the start node for expansion.
+If we want to visit shallower nodes before deeper nodes, we must visit nodes in their order of insertion. 
+#### Uniform Cost Search
+Uniform cost search (UCS), is a strategy for exploration that always selects the lowest cost frontier node from the start node for expansion.
+To represent the frontier for UCS, the choice is usually a heap-based priority
+queue, where the priority for a given enqueued node $v$ is the path cost from the start node to $v$, or the backward cost of $v$.
+
+## Chapter 3 Informed Search
+
+
+
 
