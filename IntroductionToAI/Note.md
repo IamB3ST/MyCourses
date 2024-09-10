@@ -28,7 +28,7 @@ Estimating the computational runtime of solving a search problem is the size of 
 A state space graph is constructed with states representing nodes, with directed edges existing from a state to its children. These edges represent actions, and any associated weights represent the cost of performing the corresponding action.
 
 Unlike state space graphs, search trees have no such restriction on the number of times a state can appear. Search trees are also a class of graph with states as nodes and actions as edges between states, each state/node encodes not just the state itself, but the entire path (or plan) from the start state to the given state in the state space graph.
-![[SSGandST.png]]
+![SSG and ST](./assets/SSGandST.png "SSG and ST")
 ### Uninformed Search
 Uninformed search is like trying to find your way through a maze without a map. Here's how it works:
 1. Starting point: You begin at the entrance of the maze. This is your "start state."
