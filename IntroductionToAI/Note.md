@@ -57,7 +57,7 @@ Breadth-first search (BFS) is a strategy for exploration that always selects the
 If we want to visit shallower nodes before deeper nodes, we must visit nodes in their order of insertion. 
 If a solution exists, then the depth of the shallowest node $s$ must be finite, so BFS must eventually search this depth. Hence, it’s complete.
 BFS is generally not optimal because it simply does not take costs into consideration when determining which node to replace on the frontier.
-#### (Rutgers)Bidirectional Search
+#### Bidirectional Search(Rutgers)
 Bidirectional Search is running two simultaneous BFS: one forward from the initial state, and one backward from the goal. They stop when the two meet in the middle.
 #### Uniform Cost Search
 Uniform cost search (UCS), is a strategy for exploration that always selects the lowest cost frontier node from the start node for expansion.
