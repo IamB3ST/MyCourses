@@ -1,4 +1,3 @@
-
 # Game Theory
 ## Chapter 1 Game Theory Intro
 ### Self-interested Agents and Utility Theory
