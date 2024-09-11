@@ -9,4 +9,4 @@ And the Index will link to the original course website.
 | Course Name | Index | Time |
 |:-------|:-------|:-------|
 | [Introduction to AI](./IntroductionToAI/README.md) | [Rutgers CS440 24Fall](https://xintongemilywang.github.io/CS440.html), [Berkeley CS188 24Spring](https://inst.eecs.berkeley.edu/~cs188/sp24/) | 9/3/2024 - Current |
-| Game Theory | [Coursera Stanford Online](https://www.coursera.org/learn/game-theory-1/home/week/1) | 9/10/2024 - Current |
+| [Game Theory](./GameTheory/README.md) | [Coursera Stanford Online](https://www.coursera.org/learn/game-theory-1/home/week/1) | 9/10/2024 - Current |
