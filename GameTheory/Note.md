@@ -31,7 +31,9 @@ Let $a_{-i}=<a_1,…,a_{i-1},a_{i+1},…,a_n>$
 now $a=(a_{-1},a_i)$
 
 Your Best Response could be definite as:
-$$a \* _i \in BR(a_{-i}) iff \forall a_i \in A_i, u_i(a\*_i,a_{-i}) \geqq u_i(a_i,a_{-i})$$
+
+$a\*_i \in BR(a_{-i}) iff \forall a_i \in A_i, u_i(a\*_i,a_{-i}) \geqq u_i(a_i,a_{-i})$
+
 Then the Nash Equilibrium could be definite as:
 
 $a=<a_1,…,a_n>$ is a (”pure strategy”)Nash Equilibrium if $\forall i,a_i \in BR(a_{-i})$
