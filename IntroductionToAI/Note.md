@@ -67,6 +67,24 @@ UCS is complete. If a goal state exists, it must have some finite length shortes
 UCS is also optimal if we assume all edge costs are nonnegative. 
 
 ## Chapter 3 Informed Search
+### Informed Search
+
+Uniform cost search is good because it’s both complete and optimal, but it can be fairly slow because it expands in every direction from the start state while searching for a goal. If we have some notion of the direction in which we should focus our search, we can significantly improve performance and "hone in" on a goal much more quickly. This is exactly the focus of **informed search**.
+
+### Heuristics
+**Heuristics** are the driving force(functions) that allow estimation of distance to goal states.  A common heuristic that is used to solve Pacman problem is **Manhattan distance**, which for two points$(x_1,y_1)$ and $(x_2,y_2)$ is defined as follows:
+$Manhattan(x_1,y_1,x_2,y_2)=|x_1-x_2|+|y_1-y_2|$
+### Greedy Search
+Greedy search is a strategy for exploration that always  selects the frontier node with the lowest heuristic value for expansion, which corresponds to the state it believes is nearest to a goal.
+### A\*Search
+A\*Search combining UCS and Greedy. It is a strategy for exploration that always selects the frontier node with the lowest estimated total cost for expansion(total backward cost + heuristic value), where total cost is entire cost from the start node to the goal node.
+- $g(n)$-cost computed by UCS
+- $h(n)$-cost computed by Greedy
+- $f(n)=g(n)+h(n)$
+### Admissible Heuristics
+A heuristic $h$ is **admissible** if:
+$0 \leqq h(n) \leqq h^*(n)$
+Where: $h^*(n)$ is the true cost to a nearest goal.
 
 
 
