@@ -83,7 +83,7 @@ A\*Search combining UCS and Greedy. It is a strategy for exploration that always
 - $f(n)=g(n)+h(n)$
 ### Admissible Heuristics
 A heuristic $h$ is **admissible** if:
-$0 \leqq h(n) \leqq h^*(n)$
+$0 \leqq h(n) \leqq h\*(n)$
 Where: $h^*(n)$ is the true cost to a nearest goal.
 
 
