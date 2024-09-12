@@ -49,7 +49,7 @@ $s_i$ very weakly dominates $s_i$' if $\forall s_{-i} \in S_{-i},u_i(s_i,s_{-i})
 If one strategy dominates all others, we say it is **dominant**.
 
 ### Analyzing Games
-Previous notes, we only talk about the Best Response of an Agent. Sometimes, one outcome $o$ is at least as good for every agent as another outcome $o$', and there is some agent who strictly prefers $o$ to $o$'. We say that $o$ Pareto-dominates $o$'. An outcome $o/ast$ is **Pareto-Optimal** if there is no other outcome that Pareto-dominates it.
+Previous notes, we only talk about the Best Response of an Agent. Sometimes, one outcome $o$ is at least as good for every agent as another outcome $o$', and there is some agent who strictly prefers $o$ to $o$'. We say that $o$ Pareto-dominates $o$'. An outcome $o\ast$ is **Pareto-Optimal** if there is no other outcome that Pareto-dominates it.
 
 
 
