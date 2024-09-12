@@ -28,7 +28,7 @@ And if you know what everyone else was going to do, it would be easy to pick you
 
 Let $a_{-i}=<a_1,…,a_{i-1},a_{i+1},…,a_n>$
 
-now $a=(a_{-1},a_i)$
+now $a=(a_{-i},a_i)$
 
 Your Best Response could be definite as:
 
