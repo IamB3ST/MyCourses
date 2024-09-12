@@ -37,7 +37,7 @@ Then the Nash Equilibrium could be definite as:
 $a=<a_1,…,a_n>$ is a (”pure strategy”)Nash Equilibrium if $\forall i,a_i \in BR(a_{-i})$
   
 ### Dominant Strategies
-Let $s_i$ and $s\'_i$ be two strategies for player $i$, and let $S_{-i}$ be the set of all possible strategy profiles for the other players.
+Let $s_i$ and $s\_i$' be two strategies for player $i$, and let $S_{-i}$ be the set of all possible strategy profiles for the other players.
 
 Definition:
 $$s_i$ strictly dominates $s’_i$ if $\forall s_{-i} \in S_{-i},u_i(s_i,s_{-i}) > u_i(s’_i,s_{-i})$$
