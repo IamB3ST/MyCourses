@@ -33,14 +33,15 @@ now $a=(a_{-1},a_i)$
 Your Best Response could be definite as:
 $$a\*_i \in BR(a_{-i}) iff \forall a_i \in A_i, u_i(a\*_i,a_{-i}) \geqq u_i(a_i,a_{-i})$$
 Then the Nash Equilibrium could be definite as:
-$$a=<a_1,…,a_n>$ is a (”pure strategy”)Nash Equilibrium if $\forall i,a_i \in BR(a_{-i})$$
+
+$a=<a_1,…,a_n>$ is a (”pure strategy”)Nash Equilibrium if $\forall i,a_i \in BR(a_{-i})$
   
 ### Dominant Strategies
 Let $s_i$ and $s’_i$ be two strategies for player $i$, and let $S_{-i}$ be the set of all possible strategy profiles for the other players.
 
 Definition:
-$s_i$ strictly dominates $s’_i$ if $\forall s_{-i} \in S_{-i},u_i(s_i,s_{-i}) > u_i(s’_i,s_{-i})$
-$s_i$ very weakly dominates $s’_i$ if $\forall s_{-i} \in S_{-i},u_i(s_i,s_{-i}) \geqq u_i(s’_i,s_{-i})$
+$$s_i$ strictly dominates $s’_i$ if $\forall s_{-i} \in S_{-i},u_i(s_i,s_{-i}) > u_i(s’_i,s_{-i})$$
+$$s_i$ very weakly dominates $s’_i$ if $\forall s_{-i} \in S_{-i},u_i(s_i,s_{-i}) \geqq u_i(s’_i,s_{-i})$$
 
 If one strategy dominates all others, we say it is **dominant**.
 
