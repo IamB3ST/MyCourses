@@ -7,6 +7,7 @@ This repo is created to record the notes and projects of courses I have taken. T
 | Course Name | Rutgers Index | Term |
 |:-------|:-------|:-------|
 | Introduction to AI [[page](./IntroductionToAI/README.md)] | CS440 [[page](https://xintongemilywang.github.io/CS440.html)] | 24fall  |
+| Introduction to Linear Algebra | Math250 [[page](https://math.rutgers.edu/academics/undergraduate/courses/948-01-640-250-introductory-linear-algebra)] | 24fall  |
 
 ### Other Courses
 | Course Name | Source | Time |
