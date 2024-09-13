@@ -4,5 +4,5 @@ The homework is almost from the textbook "Linear Algebra and its application" by
 
 ## List
 | File | Chapter |
-|: |  |
+|:-------|:-------|
 | Math250_HW1 | 1.1-1.2 |
