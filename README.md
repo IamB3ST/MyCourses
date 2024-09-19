@@ -12,5 +12,4 @@ This repo is created to record the notes and projects of courses I have taken. T
 ### Other Courses
 | Course Name | Source | Time |
 |:-------|:-------|:-------|
-| Graph Theory [[page](./Graph_Theory/README.md)] | UCSD Coursera Online [[page](https://www.coursera.org/learn/graphs/home/module/1)] | 9/13/2024 - Current |
-| Game Theory [[page](./GameTheory/README.md)] | Stanford&UBC Coursera Online [[page](https://www.coursera.org/learn/game-theory-1/home/week/1)] | 9/10/2024 - Current (Stop) |
+| Graph Theory [[page](./Graph_Theory/README.md)] | UCSD Coursera Online [[page](https://www.coursera.org/learn/graphs/home/module/1)] | 9/13/2024 - 9/18/2024（finish 60%） |
