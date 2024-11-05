@@ -1,6 +1,6 @@
 # MyCourses
 
-This repo is created to record the notes and projects of courses I have taken. These courses includ both Rutgers Register Courses and Online Public Courses.
+This repo is created to record the HWs, assignments and projects of courses I have taken at Rutgers. 
 
 ## Rutgers Courses List
 ### Computer Science
