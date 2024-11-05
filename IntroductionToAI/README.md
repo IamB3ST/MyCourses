@@ -1,6 +1,6 @@
 # Intro to AI (Updating)
 
-Rutgers CS440 is actually strongly referenced from [Berkeley CS188](https://inst.eecs.berkeley.edu/~cs188/sp24/), for Syllabus, PPT and Assignments. And each assignment has their own page.
+Rutgers CS440 is actually strongly referenced from [Berkeley CS188](https://inst.eecs.berkeley.edu/~cs188/sp24/), for Syllabus, PPT and Assignments. And each assignment has their own page. (Code will be released after 24fall term)
 
 ## Assignment List
 | Assignment | Page | Topics |Grades |
