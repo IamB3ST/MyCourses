@@ -15,5 +15,5 @@ The homework is almost from the textbook "**Linear Algebra and its application**
 | Math250_HW3 [[pdf](./Math250_HW3.pdf)] | 1.4-1.7 | Matrix Equation, Solution Sets, Linear Independent | 14/15 |
 | Math250_HW4 [[pdf](./Math250_HW4.pdf)] | 1.7-1.9 | Linear Independent, Linear Transformations | 15/15 |
 | Math250_HW5 [[pdf](./Math250_HW5.pdf)] | 2.1-2.3, 3.1 | Matrix Operation, Invertible, Determinants | 15/15 |
-| Math250_HW6 [[pdf](./Math250_HW6.pdf)] | 3.2, 3.2, 4.1 | Determinants, Vector Spaces | 15/15 |
+| Math250_HW6 [[pdf](./Math250_HW6.pdf)] | 3.2, 3.3, 4.1 | Determinants, Vector Spaces | 15/15 |
 | Math250_HW7 [[pdf](./Math250_HW7.pdf)] | 4.1-4.4 | Vector Spaces, Bases, Linear Independent Sets | unknown |
